@@ -27,6 +27,9 @@
       </MenuBar>
    </top>
    <center>
-      <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+      <Button mnemonicParsing="false" onAction="#goToModal" text="Button" BorderPane.alignment="CENTER" />
    </center>
+   <bottom>
+      <Button mnemonicParsing="false" onAction="#goToDeparture" text="Button" BorderPane.alignment="CENTER" />
+   </bottom>
 </BorderPane>
